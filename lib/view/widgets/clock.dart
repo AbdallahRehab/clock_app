@@ -12,7 +12,6 @@ class Clock extends GetView<HomeController> {
     return   Padding(
         padding: EdgeInsets.only(left: 30,right: 30,top: 84),
         child:Obx(()=> AspectRatio(
-
           aspectRatio: 1,
           child: Container(
             decoration: BoxDecoration(
